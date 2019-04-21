@@ -13,6 +13,11 @@ namespace getUserInfo
             user.FaveAnimal = user.AnswerQuestion("What is your favorite animal?");
             user.FaveSport = user.AnswerQuestion("What is your favorite sport?");
             user.FaveNumber = user.AnswerQuestion("What is your favorite number?");
+
+            Console.WriteLine($"Hello {user.FirstName} {user.LastName}.");
+            Console.WriteLine($"Your favorite animal is a {user.FaveAnimal}.");
+            Console.WriteLine($"Your favorite sport is {user.FaveSport}.");
+            Console.WriteLine($"And your favorite number is {user.FaveNumber}.");
         }
     }
 }
