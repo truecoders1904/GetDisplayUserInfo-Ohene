@@ -18,7 +18,10 @@ namespace getUserInfo
             Console.WriteLine($"Your favorite animal is a {user.FaveAnimal}.");
             Console.WriteLine($"Your favorite sport is {user.FaveSport}.");
             Console.WriteLine($"And your favorite number is {user.FaveNumber}.");
+            //MISSING IF STATEMENTS FOR FAVORITE NUMBER
+            //NEED TO INCLUDE COLORs
         }
+
     }
 }
 
