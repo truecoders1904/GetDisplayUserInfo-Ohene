@@ -10,12 +10,11 @@ class User
     public string LastName { get; set; }
     public string FaveAnimal { get; set; }
     public string FaveSport { get; set; }
-    public string FaveNumber { get; set; }
+    public int FaveNumber { get; set; }
 
-
+//EMPY FIRST CW LINE,  TEST
     public string AnswerQuestion(string question)
     {
-        Console.WriteLine($"Hello {FirstName}, could you answer a few questions: ");
         Console.WriteLine(question);
         return Console.ReadLine();
     }
@@ -27,3 +26,4 @@ class User
     }
 
 }
+
