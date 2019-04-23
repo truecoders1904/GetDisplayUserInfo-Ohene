@@ -20,7 +20,5 @@ namespace getUserInfo
             string stringAnswer = AnswerQuestion(question);
             return int.Parse(stringAnswer);
         }
-
-    }
-
+    }    
 }
